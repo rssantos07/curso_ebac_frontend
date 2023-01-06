@@ -1,5 +1,5 @@
 const form = document.getElementById('formulario');
-vsco
+
 form.addEventListener('submit',function (e){
     
     e.preventDefault();
