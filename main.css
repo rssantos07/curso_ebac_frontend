@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+header{
+    margin-bottom: 40px;
+
+}
+header h1{
+    font-size: 38px;
+    font-weight: bold;
+}
+
+form{
+    margin-bottom: 45px;
+}
+form input,button{
+    font-size: 28px;
+    
+}
+
+li{
+    cursor: pointer;
+}
+
+ul li{
+    font-size: 22px;
+    
+} 
